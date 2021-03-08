@@ -10,4 +10,4 @@ jobs:
         with:
           python-version: 3.9.2
       - name: Run Python3
-        run: python -c "import sys; print(sys.version)"
+        run: python main.py
